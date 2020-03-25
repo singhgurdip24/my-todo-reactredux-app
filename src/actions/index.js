@@ -5,7 +5,7 @@ export const addToDo = text => ({
     text
 })
 
-export const toggleToDo = id => ({
+export const toggleTodo = id => ({
     type: 'TOGGLE_TODO',
     id
 })
